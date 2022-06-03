@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pikachu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="game">
+        <div id="board">
+            <div class="header-board">
+                <h3 class="level" id="level-up">
+                    Cấp độ: <span id="level">1</span>
+                </h3>
+                <h3 class="score">
+                    Điểm: <span id="score">0</span>
+                </h3>
+                <div class="progress">
+                    <div class="progress-value" id="time"></div>
+                </div>
+                <div class="support-items">
+                    <div id="find" class="wrapper-icon">
+                        <img src="./icon/search-interface-symbol.png" alt="">
+                        <span id="count-find">10</span>
+                    </div>
+                    <div id="exchange" class="wrapper-icon">
+                        <img src="./icon/recycle.png" alt="">
+                        <span id="count-exchange">3</span>
+                    </div>
+                    <div id="restart" class="wrapper-icon">
+                        <p>Chơi lại</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="main">
+                <div id="wrapper-pikachu">
+
+                </div>
+                <svg id="svg">
+
+                </svg>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</svg>
+
+</div>
+<div class="modal-custom" id="modal-final">
+
+    <div class="modal-content-custom" id="content">
+
+
+    </div>
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>
